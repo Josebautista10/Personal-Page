@@ -1,13 +1,13 @@
-import NavBar from '../components/navBar/index.js';
+import NavBar from '../components/navBar/nav.js'
 
 const HomePage = () => {
   return (
     <>
-      <div>
+      <div class='stars'></div>
+      <div class='twinkling'></div>
         <NavBar />
-      </div>
     </>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
