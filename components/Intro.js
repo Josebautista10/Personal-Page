@@ -4,10 +4,9 @@ function Intro() {
   return (
     <div className='flex flex-col'>
       <div className='flex justify-center flex-col items-center'>
-        <h1 className='text-white py-3 text-3xl'> Hey! I'm Jose Bautista</h1>
         <img src='images/me.png' className='w-1/5 rounded-3xl' />
-        <h2 className='text-white py-3 text-3xl'>
-          A Junior front-end developer who loves to learn and build apps with
+        <h2 className='text-white py-3 text-2xl'>
+          I'm a Junior front-end developer who loves to learn and build apps with
           JavaScript
         </h2>
       </div>
