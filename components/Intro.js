@@ -25,7 +25,7 @@ function Intro() {
           <p className="text-white py-3 ">This is an artcile I wrote on my journey on becoming a Juniour dev</p>
         </div>
         <div className='flex flex-col justify-center items-center w-1/2'>
-          <h1 className='text-white py-3 text-2xl'>Project management App </h1>
+          <h1 className='text-white py-3 text-2xl'>WorkLand </h1>
           <a className="contents" target="_blank" href='https://github.com/Josebautista10/WorkLand'>
             <img
               src='images/workland.png'
