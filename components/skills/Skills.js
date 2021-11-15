@@ -9,6 +9,7 @@ function Skills() {
     'React',
     'BootStrap',
     'Chakra Ui',
+    'TailwindCSS',
     'SQL',
     'Node.js',
     'Git',
@@ -18,8 +19,10 @@ function Skills() {
     'Netlify'
   ]
   return (
-    <div className='border-2 border-white w-1/4'>
-      <SkillsCard title={'Skills'} Skills={skillsArr}></SkillsCard>
+    <div className="flex justify-center m-2 ">
+      <div className='border-2 border-white w-1/4 rounded-2xl '>
+        <SkillsCard title={'Skills'} Skills={skillsArr}></SkillsCard>
+      </div>
     </div>
   )
 }

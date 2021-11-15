@@ -3,11 +3,11 @@ import SkillsCardList from './SkillsCardList'
 
 function SkillsCard(props) {
   const {title, Skills} = props
-  console.log(Skills);
   return (
     <>
-      <h1 className='flex text-white py-3 text-3xl justify-center'>{title}</h1>
-          <ul className='text-white '>
+      <h1 className='flex text-white py-3 text-3xl justify-center '>{title}</h1>
+      <hr/>
+          <ul className='text-white text-xl'>
           <SkillsCardList Skills={Skills}></SkillsCardList>
           </ul>
     </>
