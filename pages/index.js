@@ -1,6 +1,6 @@
-import Intro from '../components/navBar/intro.js'
-import NavBar from '../components/navBar/nav.js'
-import Skills from '../components/navBar/skills.js'
+import Intro from '../components/Intro.js'
+import NavBar from '../components/nav.js'
+import Skills from '../components/navBar/skills/Skills.js'
 
 const HomePage = () => {
   return (

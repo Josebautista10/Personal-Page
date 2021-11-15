@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillsCardList from './SkillsCardList'
+import SkillsCardList from '../SkillsCardList'
 
 function SkillsCard(props) {
   const {title, Skills} = props
