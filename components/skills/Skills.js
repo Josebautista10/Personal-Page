@@ -3,8 +3,6 @@ import SkillsCard from './SkillsCard'
 
 function Skills() {
   const skillsArr = [
-    'Html5',
-    'CSS3',
     'JavaScript',
     'React',
     'BootStrap',
@@ -13,10 +11,10 @@ function Skills() {
     'SQL',
     'Node.js',
     'Git',
-    'Vscode',
     'Figma',
     'Heroku',
-    'Netlify'
+    'Netlify',
+    'Vercel'
   ]
   return (
     <div className="flex justify-center m-2 ">
