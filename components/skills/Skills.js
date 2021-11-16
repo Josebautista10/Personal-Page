@@ -27,7 +27,7 @@ function Skills() {
         <SkillsCard title={'Skills'} Skills={skillsArr}></SkillsCard>
       </div> : <button onClick={() => showSkills(true)}>hello</button>}
     </div>
-    {/* <BackToTop onClick={() => showSkills(false)}/> */}
+    <BackToTop onClick={() => console.log('skills',skills)}/>
     </>
   )
 }

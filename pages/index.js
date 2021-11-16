@@ -11,7 +11,7 @@ const HomePage = () => {
         <NavBar />
         <Intro></Intro>
         <Skills/>
-        <BackToTop/>
+        {/* <BackToTop/> */}
     </>
   )
 }
