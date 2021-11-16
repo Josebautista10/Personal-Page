@@ -1,9 +1,6 @@
 {
   "workbench.colorCustomizations": {
-    "editorGroup.border": "#543370",
-    "panel.border": "#543370",
     "sash.hoverBorder": "#543370",
-    "sideBar.border": "#543370",
     "statusBar.background": "#3a234d",
     "statusBar.foreground": "#e7e7e7",
     "statusBarItem.hoverBackground": "#543370",
