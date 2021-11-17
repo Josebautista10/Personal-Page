@@ -16,7 +16,7 @@ function NavBar() {
             <IconLink
               link={'https://www.linkedin.com/in/jose-bautista-a323b6217/'}
               className={
-                'flex justify-center transition duration-500 transform scale-150 text-white hover:text-blue-600'
+                'flex justify-center transition duration-500 transform scale-150 text-white hover:text-blue-600 bounce animated'
               }
               icon={<SiLinkedin></SiLinkedin>}
             />
