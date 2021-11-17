@@ -18,7 +18,7 @@ function Intro() {
           <a className="contents " target="_blank" href='https://medium.com/@cooldj1020/journey-on-becoming-a-junior-software-developer-6bbab139b7f9'>
             <img
               src='images/article.jpeg'
-              className='w-7/12 rounded-3xl '
+              className='w-7/12 rounded-3xl card'
             />
           </a>
           <p className="text-white py-3 ">This is an artcile I wrote on my journey on becoming a Juniour dev</p>
@@ -28,7 +28,7 @@ function Intro() {
           <a className="contents" target="_blank" href='https://github.com/Josebautista10/WorkLand'>
             <img
               src='images/workland.png'
-              className='w-6/12 rounded-3xl '
+              className='w-6/12 rounded-3xl card'
             />
           </a>
           <p className="text-white py-3 ">Gamified project management app that was built by a team of three </p>
