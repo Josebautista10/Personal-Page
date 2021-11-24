@@ -6,6 +6,7 @@ function Skills() {
   const [skills,showSkills] = useState(false)
   const skillsArr = [
     'JavaScript',
+    'TypeScript',
     'React',
     'BootStrap',
     'Chakra Ui',
