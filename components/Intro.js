@@ -1,4 +1,5 @@
 import React from 'react'
+import CertificationsModal from './CertificationsModal'
 
 function Intro() {
   return (
@@ -9,7 +10,9 @@ function Intro() {
           I'm a Junior front-end developer who loves to learn and build apps with
           JavaScript
         </h2>
+        <CertificationsModal/>
       </div>
+      
       <section className='flex flex-row justify-around '>
         <div className='flex flex-col justify-center items-center w-1/2 ' >
           <h1 className='text-white py-3 text-2xl flex flex-col justify-center items-center'>
