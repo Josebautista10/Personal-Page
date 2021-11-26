@@ -31,7 +31,7 @@ function CertificationsModal() {
         <section className='bg-red-600 h-full flex-col flex'>
         <div className='flex justify-center text-3xl'>My certificates</div>
         <div className='bg-red-600 h-full flex items-center justify-around flex-col'>
-          <div className='flex-col bg-blue-600 w-1/3'>
+          <div className='flex-col bg-blue-600 w-1/4'>
             <img className=' flex justify-center' src='images/certificate/LHL-diploma.png' />
             <p className='flex justify-center'>props.title</p>
           </div>
