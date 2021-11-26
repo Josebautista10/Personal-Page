@@ -128,5 +128,5 @@ box-shadow: 0 0 10px #ccc;
   overflow-y: auto;
   position: relative;
   padding: 0 !important;
-  overflow: hidden !important;
+  /* overflow: hidden !important; */
 }
