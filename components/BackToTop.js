@@ -26,7 +26,7 @@ function BackToTop() {
   }, []);
 
   return (
-    <div className="scroll-to-top flex justify-end text-white">
+    <div className="scroll-to-top flex justify-end text-white transition duration-500 ease-in-out">
       {isVisible && 
         <BsArrowUpCircleFill onClick={scrollToTop}>
         </BsArrowUpCircleFill>}
