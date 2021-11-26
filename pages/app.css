@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: rgb(17, 17, 17)
+  background-color: rgb(17, 17, 17);
 }
 
 .scroll-to-top {
@@ -12,9 +12,8 @@ body {
   right: 1.5rem;
   animation: fadeIn 2s ease-in-out 1s both;
   cursor: pointer;
-  font-size:40px;
+  font-size: 40px;
   transition: 1s;
-  
 }
 
 .scroll-to-top:hover {
@@ -30,7 +29,7 @@ body {
   }
 }
 
-.floating {  
+.floating {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -38,9 +37,15 @@ body {
 }
 
 @keyframes floating {
-  from { transform: translate(0,  0px); }
-  65%  { transform: translate(0, 15px); }
-  to   { transform: translate(0, -0px); }    
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }
 .animated {
   animation-duration: 2.5s;
@@ -49,51 +54,58 @@ body {
 }
 
 .card {
-  transition: 0.4s
+  transition: 0.4s;
 }
 .card:hover {
-transform: scale(1.03);
--moz-box-shadow: 0 0 10px #ccc;
--webkit-box-shadow: 0 0 10px #ccc;
-box-shadow: 0 0 10px #ccc;
+  transform: scale(1.03);
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
 }
 
-
-
+.certificate {
+  transition: 0.4s;
+}
+.certificate:hover {
+  transform: scale(1.03);
+  -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
 
 @keyframes move-background {
   from {
-		-webkit-transform: translate3d(0px, 0px, 0px);
-	}
-	to { 
-		-webkit-transform: translate3d(1000px, 0px, 0px);
-	}
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
 }
 @-webkit-keyframes move-background {
   from {
-		-webkit-transform: translate3d(0px, 0px, 0px);
-	}
-	to { 
-		-webkit-transform: translate3d(1000px, 0px, 0px);
-	}
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
 }
 
-@-moz-keyframes move-background {    
-	from {
-		-webkit-transform: translate3d(0px, 0px, 0px);
-	}
-	to { 
-		-webkit-transform: translate3d(1000px, 0px, 0px);
-	}
+@-moz-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
 }
 
-    @-webkit-keyframes move-background {
-	from {
-		-webkit-transform: translate3d(0px, 0px, 0px);
-	}
-	to { 
-		-webkit-transform: translate3d(1000px, 0px, 0px);
-	}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
 }
 
 /* modal */
@@ -117,16 +129,24 @@ box-shadow: 0 0 10px #ccc;
   display: flex;
   align-items: center;
   justify-content: center;
-  ;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
 }
 
 .ReactModal__Content {
-  background: white;
+  background: rgb(45, 211, 148) !important;
   width: 95vw;
   height: 90vh;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
   overflow-y: auto;
   position: relative;
   padding: 0 !important;
-  /* overflow: hidden !important; */
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
 }

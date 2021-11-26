@@ -4,8 +4,8 @@ import CertificationsModal from './CertificationsModal'
 function Intro() {
   return (
     <div className='flex flex-col'>
-      <div className='flex justify-center flex-col items-center'>
-        <img src='images/me.png' className='w-1/5 rounded-3xl floating' />
+      <div className='flex justify-center flex-col items-center animate-fade'>
+        <img src='images/me.png' className='w-1/5 rounded-3xl floating ' />
         <h2 className='text-white py-3 text-2xl mt-3'>
           I'm a Junior front-end developer who loves to learn and build apps with
           JavaScript
