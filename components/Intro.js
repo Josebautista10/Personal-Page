@@ -16,7 +16,7 @@ function Intro() {
       <section className='flex flex-row justify-around '>
         <div className='flex flex-col justify-center items-center w-1/2 ' >
           <h1 className='text-white py-3 text-2xl flex flex-col justify-center items-center'>
-            How I became a Juniour dev
+            How I became a Junior dev
           </h1>
           <a className="contents " target="_blank" href='https://medium.com/@cooldj1020/journey-on-becoming-a-junior-software-developer-6bbab139b7f9'>
             <img
@@ -24,7 +24,7 @@ function Intro() {
               className='w-7/12 rounded-3xl card'
             />
           </a>
-          <p className="text-white py-3 ">This is an artcile I wrote on my journey on becoming a Juniour dev</p>
+          <p className="text-white py-3 ">This is an article I wrote on my journey on becoming a Junior dev</p>
         </div>
         <div className='flex flex-col justify-center items-center w-1/2'>
           <h1 className='text-white py-3 text-2xl'>WorkLand </h1>
