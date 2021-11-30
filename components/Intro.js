@@ -7,7 +7,7 @@ function Intro() {
       <div className='flex justify-center flex-col items-center animate-fade'>
         <img src='images/me.png' className='w-1/5 rounded-3xl floating ' />
         <h2 className='text-white py-3 text-2xl mt-3'>
-          I'm a Junior front-end developer who loves to learn and build apps with
+          I'm a Junior Front-end Developer who loves to learn and build apps with
           JavaScript
         </h2>
         <CertificationsModal/>
@@ -24,7 +24,7 @@ function Intro() {
               className='w-7/12 rounded-3xl card'
             />
           </a>
-          <p className="text-white py-3 ">This is an article I wrote on my journey on becoming a Junior dev</p>
+          <p className="text-white py-3 ">This is an article I wrote becoming a Junior dev</p>
         </div>
         <div className='flex flex-col justify-center items-center w-1/2'>
           <h1 className='text-white py-3 text-2xl'>WorkLand </h1>
