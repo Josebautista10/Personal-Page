@@ -13,7 +13,13 @@ module.exports = {
      '3xl': '0 35px 60px -15px #ccc',
       inner: 'inset 0 2px 4px 0 #ccc',
       none: 'none',
-    }
+    },
+    extend: {
+      screens: {
+        '2xsm': '375px',
+        'xsm': '500px',
+      },
+    },
   },
   variants: {
     extend: {},

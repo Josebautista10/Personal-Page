@@ -33,11 +33,11 @@ function CertificationsModal() {
           ></AiFillCloseCircle>
         </div>
         <section className='bg-green-400 h-full flex-col flex'>
-        <div className='flex justify-center text-3xl text-white' >My Certificates</div>
+        <div className='flex justify-center text-xl md:text-2xl lg:text-3xl text-white' >My Certificates</div>
         <hr/>
         <div className=' h-full flex items-center justify-around flex-col'>
           <div className='flex-col  text-white w-1/4 rounded-md certificate'>
-            <p className='flex justify-center text-2xl'>LightHouse Labs Diploma</p>
+            <p className='flex justify-center sm:text-lg md:text-xl lg:text-2xl'>LightHouse Labs Diploma</p>
             <img className=' flex justify-center rounded-md' src='images/certificate/LHL-diploma.png' />
           </div>
           <div className='flex flex-wrap justify-around'>
