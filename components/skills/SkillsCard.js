@@ -7,7 +7,7 @@ function SkillsCard(props) {
     <>
       <h1 className='flex text-white py-3 text-3xl justify-center '>{title}</h1>
       <hr/>
-          <ul className='text-white text-xl'>
+          <ul className='text-white  sm:text-md md:text-lg lg:text-xl'>
           <SkillsCardList Skills={Skills}></SkillsCardList>
           </ul>
     </>
