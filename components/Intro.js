@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import CertificationsModal from './CertificationsModal'
 
 function Intro() {
+  const [width, setWidth] = useState(0);
+  
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+
+  const showModal = () => {
+    return width >= 600
+  }
+  
   return (
     <div className='flex flex-col'>
       <div className='flex justify-center flex-col items-center animate-fade'>
@@ -10,7 +26,7 @@ function Intro() {
           I'm a Junior Front-end Developer who loves to learn and build apps with
           JavaScript
         </h2>
-        <CertificationsModal/>
+        {showModal() && <CertificationsModal/> }
       </div>
       
       <section className='flex flex-row justify-around '>
