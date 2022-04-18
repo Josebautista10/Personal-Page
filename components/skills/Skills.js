@@ -22,8 +22,8 @@ function Skills() {
   ]
   return (
     <>
-    <div className="flex justify-center m-2 animated ">
-      <div className='border-2 border-white w-1/4 rounded-2xl card'>
+    <div className="flex justify-center p-3 animated ">
+      <div className='border-2 border-white 2xsm:w-5/12  xsm:w-3/12 sm:w-3/12 md:w-3/12 lg:w-3/12 rounded-2xl card'>
         <SkillsCard title={'Skills'} Skills={skillsArr}></SkillsCard>
       </div>
     </div>
