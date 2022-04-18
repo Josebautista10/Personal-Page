@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import CertificationsModal from './CertificationsModal'
 
 function Intro() {
-  const [width, setWidth] = useState(0);
+  const [width, setWidth] = useState(null);
   
   useEffect(() => {
+    setWidth(window.innerWidth)
     function handleResize() {
       setWidth(window.innerWidth);
     }
@@ -13,7 +14,7 @@ function Intro() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
+console.log(width)
   const showModal = () => {
     return width >= 600
   }
@@ -33,7 +34,7 @@ function Intro() {
         <div className='flex flex-col justify-center items-center w-1/2' >
           <h1 className='text-white py-3 sm:text-lg md:text-xl lg:text-2xl flex flex-col justify-center items-center'>
             How I became a Junior dev
-          </h1>
+          </h1>g
           <a className="contents " target="_blank" href='https://medium.com/@cooldj1020/journey-on-becoming-a-junior-software-developer-6bbab139b7f9'>
             <img
               src='images/article.jpeg'
