@@ -5,7 +5,6 @@ import Skills from '../components/skills/Skills.js'
 const HomePage = () => {
   return (
     <>
-  
         <NavBar />
         <Intro></Intro>
         <Skills/>

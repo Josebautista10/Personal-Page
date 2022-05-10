@@ -34,7 +34,7 @@ console.log(width)
         <div className='flex flex-col justify-center items-center w-1/2' >
           <h1 className='text-white py-3 sm:text-lg md:text-xl lg:text-2xl flex flex-col justify-center items-center'>
             How I became a Junior dev
-          </h1>g
+          </h1>
           <a className="contents " target="_blank" href='https://medium.com/@cooldj1020/journey-on-becoming-a-junior-software-developer-6bbab139b7f9'>
             <img
               src='images/article.jpeg'

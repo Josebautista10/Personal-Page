@@ -6,7 +6,7 @@ import IconLink from './IconLink'
 function NavBar() {
   return (
     <div>
-      <div className='flex py-4 px-8  w-full'>
+      <div className='flex py-4 px-8 w-full'>
         <div className='flex  lg:w-2/12 md:w-3/12 sm:w-3/12 xsm:w-4/12 2xsm:w-6/12 lg:text-3xl	md:text-2xl sm:text-lg text-white'>
           <h1>Jose Bautista</h1>
         </div>
